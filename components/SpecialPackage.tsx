@@ -16,14 +16,14 @@ interface SpecialPackageProps {
 
 const SpecialPackage: FC<SpecialPackageProps> = ({ products }) => {
     return (
-        <section className='container mx-auto'>
-            <h2 className="font-[700] text-[28px] md:text-[64px] leading-[42px] md:leading-[85px] tracking-0 md:text-center font-Playfair text-[#07484A] mt-0 mb-[80px] md:my-[100px] p-4">
+        <section className='container mx-auto md:p-4'>
+            <h2 className="font-[700] text-[28px] md:text-[64px] leading-[42px] md:leading-[85px] tracking-0 md:text-center font-Playfair text-[#07484A] mt-0 md:my-[100px] p-4">
                 Special Package
             </h2>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 md:gap-[100px] p-4 md:p-0'>
-                <div className='flex flex-col-reverse md:flex-col'>
-                    <div className='mt-[32px] md:mt-0'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 md:gap-[100px] p-4 md:p-0'>
+                <div className='flex flex-col'>
+                    <div className='mt-0'>
                         <img
                             src='/images/SpecialPackage/image-6.jpg' alt={`image for special product`}
                             className='rounded-[10px] w-full max-h-[556px]'

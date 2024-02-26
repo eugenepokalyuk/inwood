@@ -5,7 +5,7 @@ interface NewsletterSectionProps { }
 
 const NewsletterSection: FC<NewsletterSectionProps> = () => {
     return (
-        <section className='bg-[#E0EFF6] grid grid-cols-1 md:grid-cols-2 py-[48px] md:py-[0px]'>
+        <section className='bg-[#E0EFF6] grid grid-cols-1 lg:grid-cols-2 py-[48px] md:py-[0px]'>
             <article>
                 <div
                     className='w-full h-full bg-center bg-cover'

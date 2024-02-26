@@ -19,7 +19,7 @@ const BonusSection: FC<BonusSectionProps> = ({ data }) => {
                     Benefits for your expediency
                 </h2>
 
-                <div className='flex flex-col md:flex-row justify-between'>
+                <div className='flex flex-col md:flex-row items-center md:justify-between'>
                     {data.map((item: Data) => {
                         return (
                             <>

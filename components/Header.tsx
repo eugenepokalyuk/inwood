@@ -8,8 +8,8 @@ interface HeaderProps { }
 const Header: FC<HeaderProps> = () => {
     return (
         // fixed 
-        <header className="absolute w-full flex justify-between items-center md:py-[28px]">
-            <div className='mx-auto w-full flex flex-row justify-between p-4 md:px-[150px]'>
+        <header className="absolute w-full flex justify-between items-center lg:py-[28px]">
+            <div className='mx-auto w-full flex flex-row justify-between p-4 lg:px-[150px]'>
                 <div className="logo">
                     <Link href="/">
                         <span>
@@ -18,8 +18,8 @@ const Header: FC<HeaderProps> = () => {
                     </Link>
                 </div>
 
-                <nav className='hidden md:block'>
-                    <ul className="flex flex-col md:flex-row md:gap-[48px]">
+                <nav className='hidden md:hidden lg:block'>
+                    <ul className="flex flex-col lg:flex-row lg:gap-8">
                         <li><Link href="/"><span className="font-[400] text-[20px] leading-[26.58px] tracking-[0.05em] font-Playfair hover:text-green-800 hover:font-[700] hover:border-b-2 hover:border-b hover:border-green-800">Home</span></Link></li>
                         <li><Link href="/products"><span className="font-[400] text-[20px] leading-[26.58px] tracking-[0.05em] font-Playfair hover:text-green-800 hover:font-[700] hover:border-b-2 hover:border-b hover:border-green-800">Products</span></Link></li>
                         <li><Link href="/categories"><span className="font-[400] text-[20px] leading-[26.58px] tracking-[0.05em] font-Playfair hover:text-green-800 hover:font-[700] hover:border-b-2 hover:border-b hover:border-green-800">Categories</span></Link></li>
@@ -28,7 +28,7 @@ const Header: FC<HeaderProps> = () => {
                 </nav>
 
                 <div>
-                    <ul className="flex flex-row space-x-4 md:space-x-[58px]">
+                    <ul className="flex flex-row space-x-4 lg:space-x-8">
                         <li>
                             <Link href="#">
                                 <Image src='images/icons/zoom-green.svg' alt='' width={27} height={27} />

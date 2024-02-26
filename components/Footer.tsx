@@ -15,7 +15,7 @@ const Footer = () => {
                             </Link>
                         </div>
 
-                        <div className="flex space-x-4 mb-4">
+                        <div className="flex w-full lg:space-x-4 mb-4">
                             <Link href="/">
                                 <span>
                                     <Image src="/images/icons/socials/facebook.svg" alt="INWOOD Logo" width={28} height={28} />
