@@ -15,7 +15,7 @@ const Footer = () => {
                             </Link>
                         </div>
 
-                        <div className="flex w-full lg:space-x-4 mb-4">
+                        <div className="flex w-full space-x-2 lg:space-x-4 mb-4">
                             <Link href="https://t.me/PaperCranejs">
                                 <span>
                                     <Image src="/images/icons/socials/telegram.svg" alt="Telegram Logo" width={28} height={28} />
