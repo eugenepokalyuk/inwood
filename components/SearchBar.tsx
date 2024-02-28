@@ -1,4 +1,3 @@
-// components/SearchBar.tsx
 import Image from 'next/image';
 import { FC, FormEvent, useState } from 'react';
 

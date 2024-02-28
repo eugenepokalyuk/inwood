@@ -28,7 +28,9 @@ const SideMenu: FC<SideMenuProps> = ({ onSelect, categories }) => {
 
     return (
         <aside className='w-1/4 min-w-[200px] flex flex-col justify-between h-full p-4 gap-[80px]'>
-            <SearchBar onSearch={handleSearch} />
+            <div className='hidden md:flex'>
+                <SearchBar onSearch={handleSearch} />
+            </div>
             <div ref={menuRef} className='hidden md:flex overflow-auto'>
                 <MenuBox onSelect={onSelect} categories={filteredItems} />
             </div>

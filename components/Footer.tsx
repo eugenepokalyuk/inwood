@@ -16,33 +16,21 @@ const Footer = () => {
                         </div>
 
                         <div className="flex w-full lg:space-x-4 mb-4">
-                            <Link href="/">
+                            <Link href="https://t.me/PaperCranejs">
                                 <span>
-                                    <Image src="/images/icons/socials/facebook.svg" alt="INWOOD Logo" width={28} height={28} />
+                                    <Image src="/images/icons/socials/telegram.svg" alt="Telegram Logo" width={28} height={28} />
                                 </span>
                             </Link>
 
-                            <Link href="/">
+                            <Link href="https://github.com/eugenepokalyuk">
                                 <span>
-                                    <Image src="/images/icons/socials/facebook.svg" alt="INWOOD Logo" width={28} height={28} />
+                                    <Image src="/images/icons/socials/github-mark.svg" alt="Github Logo" width={28} height={28} />
                                 </span>
                             </Link>
 
-                            <Link href="/">
+                            <Link href="https://eugenepokalyuk.github.io/react-about/">
                                 <span>
-                                    <Image src="/images/icons/socials/facebook.svg" alt="INWOOD Logo" width={28} height={28} />
-                                </span>
-                            </Link>
-
-                            <Link href="/">
-                                <span>
-                                    <Image src="/images/icons/socials/facebook.svg" alt="INWOOD Logo" width={28} height={28} />
-                                </span>
-                            </Link>
-
-                            <Link href="/">
-                                <span>
-                                    <Image src="/images/icons/socials/facebook.svg" alt="INWOOD Logo" width={28} height={28} />
+                                    <Image src="/images/icons/socials/general.svg" alt="General Logo" width={28} height={28} />
                                 </span>
                             </Link>
                         </div>

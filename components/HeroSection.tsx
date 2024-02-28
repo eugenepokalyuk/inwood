@@ -12,7 +12,7 @@ const HeroSection: FC<HeroSectionProps> = () => {
             }}
         >
             <div className='max-w-[668px] space-y-[54px] flex flex-col p-4 md:p-0 text-center md:text-left'>
-                <h1 className="font-[700] text-[36px] md:text-[64px] leading-[52px] md:leading-[85.31px] font-Playfair text-[#07484A]">
+                <h1 className="font-[700] text-[36px] md:text-[64px] leading-[52px] md:leading-[85.31px] font-Playfair text-[#07484A] mt-[10rem] md:mt-0">
                     Exclusive Deals of Furniture Collection
                 </h1>
 
